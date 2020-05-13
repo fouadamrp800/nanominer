@@ -74,24 +74,12 @@ commonparameter2=commonvalue2
 commonparameterX=commonvalueX
 ...
 
-[AlgoName1]
+[rigm]
 devices=0,1
-wallet = wallet1
+wallet = 45z3vW6x9owRwGLLNLYxEgiEBikGkhEehUH3gQyYKWSC2cyokhgBbCiFT4JQRrbHTqbWoNLvaFKYHZ3CEz6Wm5L1AGhxJDU
 algoparameter1=algovalue1_1
 algoparameter2=algovalue1_2
 algoparameterY=algovalue1_Y
-...
-
-[AlgoName2]
-devices=2,3
-wallet = wallet2
-algoparameter1=algovalue2_1
-algoparameter2=algovalue2_2
-algoparameterZ=algovalue2_Z
-
-[AlgoName3]
-devices=4,5
-wallet = wallet3
 ...
 ```
 More config examples can be found below.
@@ -302,7 +290,7 @@ Example of a configuration file for Ethereum and Pascal:
 ```
 [Ethash]
 wallet = 0xffffffffffffffffffffffffffffffffffffffff
-rigName = rig1
+rigName = rigm
 email = someemail@org
 pool1 = eth-eu1.nanopool.org:9999
 pool2 = eth-eu2.nanopool.org:9999
@@ -312,9 +300,9 @@ pool5 = eth-asia1.nanopool.org:9999
 pool6 = eth-jp1.nanopool.org:9999
 pool7 = eth-au1.nanopool.org:9999
 [RandomHash2]
-wallet = 123456-77
+wallet = 45z3vW6x9owRwGLLNLYxEgiEBikGkhEehUH3gQyYKWSC2cyokhgBbCiFT4JQRrbHTqbWoNLvaFKYHZ3CEz6Wm5L1AGhxJDU
 paymentId = ffffffffffffffff
-rigName = rig1
+rigName = rigm
 email = someemail@org
 pool1 = pasc-eu1.nanopool.org:15556
 pool2 = pasc-eu2.nanopool.org:15556
